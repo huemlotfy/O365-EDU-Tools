@@ -706,7 +706,7 @@
 									"\t\t});",
 									"",
 									"\t\tpm.test(\"Require org org.type valid values\", function () {",
-									"\t\t\tpm.expect(ret0.type).to.be.oneOf(['department', 'school', 'district', 'local', 'state', 'national']);",
+									"\t\t\tpm.expect(ret0.type).to.be.oneOf(['department', 'school', 'university', 'college',  'program','district', 'local', 'state', 'national']);",
 									"\t\t});",
 									"",
 									"\t\tpm.test(\"Require org.identifier\", function () {",
